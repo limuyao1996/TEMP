@@ -14,6 +14,32 @@ module.exports = {
   module: {
     rules: [
       {
+        exclude: [
+          /\.html$/,
+          /\.md$/,
+          /\.(js|jsx)$/,
+          /\.css$/,
+          /\.less$/,
+          /\.json$/,
+          /\.bmp$/,
+          /\.gif$/,
+          /\.jpe?g$/,
+          /\.png$/
+        ],
+        loader: 'file-loader',
+        options: {
+          name: 'static/files/[name].[ext]'
+        }
+      },
+      {
+        test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+          name: 'static/images/[name].[hash:8].[ext]'
+        }
+      },
+      {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
