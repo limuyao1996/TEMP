@@ -1,0 +1,16 @@
+.test-app h1:first-child {
+    color: rgb(127, 197, 255);
+    display: flex;
+    box-sizing: border-box;
+    transform: scale(0.5);
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.image {
+    background-color: red;
+}
+@media (min-resolution: 2dppx) {
+    .image {
+        background-color: green;
+    }
+}
