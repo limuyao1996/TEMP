@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](///compare/v1.2.1...v2.0.0) (2019-12-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* **commit:** 无
+
+### Features
+
+* **commit:** 增加git commit规范 4dc6ccc
+* **配置:** 删除所务说明 2ae1b92
+
+
+### Bug Fixes
+
+* **配置:** 修改配置文件 1136313
+
 ### [1.2.1](///compare/v1.2.0...v1.2.1) (2019-12-27)
 
 ## [1.2.0](///compare/v1.1.5...v1.2.0) (2019-12-26)
