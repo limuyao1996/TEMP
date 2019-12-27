@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config config/webpack.config.js",
     "start": "webpack-dev-server --config config/webpack.config.js --open",
-    "release": "standard-version"
+    "release": "standard-version",
+    "commit": "./node_modules/cz-customizable/standalone.js"
   },
   "author": "",
   "license": "ISC",
@@ -59,7 +60,6 @@
   "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"
-      
     }
   }
 }
