@@ -1,0 +1,29 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".cz-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limuyao1996/TEMP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limuyao1996/TEMP/issues"
+  },
+  "homepage": "https://github.com/limuyao1996/TEMP#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^8.2.0",
+    "cz-customizable": "^6.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  }
+}
