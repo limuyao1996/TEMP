@@ -12,11 +12,6 @@ class App extends PureComponent {
             <div className="test-app">
                 <h1>Hello World~</h1>
                 <h1>Hello World~</h1>
-                <h1>Hello World~</h1>
-                <h1>Hello World~</h1>
-                <h1>Hello World~</h1>
-                <h1>Hello World~</h1>
-                <h1>Hello World~</h1>
                 <h1>Hello webpack~</h1>
                 <h1>Hello World~</h1>
                 <h1>Hello webpack~</h1>
